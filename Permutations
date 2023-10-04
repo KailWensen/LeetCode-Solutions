@@ -10,8 +10,8 @@ void solve(int[] nums, int[] per, int c)
     {
       permutation.add(num);
     }
-ans.add(permutation);
-return;
+  ans.add(permutation);
+  return;
 }
 for (int i = 0; i < nums.length; i++) {
 if (per[i] == 11) {
