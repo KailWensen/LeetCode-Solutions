@@ -9,7 +9,7 @@ void solve(int[] nums, int[] per, int c)
     for (int num : per) 
     {
       permutation.add(num);
-}
+    }
 ans.add(permutation);
 return;
 }
