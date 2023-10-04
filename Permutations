@@ -30,9 +30,9 @@ class Solution
     int[] per = new int[n];
     for (int i = 0; i < n; i++) 
     {
-per[i] = 11;
+      per[i] = 11;
+    }
+    solve(nums, per, 0);
+    return ans;
+  }
 }
-solve(nums, per, 0);
-return ans;
-    }
-    }
