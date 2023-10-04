@@ -1,6 +1,5 @@
 class Solution {
         List<List<Integer>> ans = new ArrayList<>();
-
             void solve(int[] nums, int[] per, int c) {
                     if (c == nums.length) {
                                 List<Integer> permutation = new ArrayList<>();
