@@ -13,9 +13,11 @@ class Solution
     ans.add(permutation);
     return;
     }
-    for (int i = 0; i < nums.length; i++) {
-if (per[i] == 11) {
-per[i] = nums[c];
+    for (int i = 0; i < nums.length; i++) 
+    {
+      if (per[i] == 11) 
+      {
+        per[i] = nums[c];
 solve(nums, per, c + 1);
 per[i] = 11;
 }
