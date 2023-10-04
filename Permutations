@@ -6,7 +6,7 @@ void solve(int[] nums, int[] per, int c)
   if (c == nums.length) 
   {
     List<Integer> permutation = new ArrayList<>();
-                                            for (int num : per) {
+    for (int num : per) {
                                                             permutation.add(num);
                                                                         }
                                                                                     ans.add(permutation);
