@@ -1,0 +1,35 @@
+class Solution {
+    public boolean winnerOfGame(String colors) 
+    {
+       int alice = 0, bob = 0;
+       int Acount = 0, Bcount = 0;
+
+       for(int i = 0; i<colors.length(); i++)
+       {
+           char ch = colors.charAt(i);
+
+           if(ch=='A')
+           {
+               Acount+=1;
+               Bcount = 0;
+               if(Acount>=3)
+               {
+                   alice+=1;
+               }
+           }
+           else{
+               Acount=0;
+               Bcount +=1;
+
+               if(Bcount>=3)
+               {
+                   bob+=1;
+               }
+           }
+       }
+
+
+       return alice>bob;
+        
+    }
+}
