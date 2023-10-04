@@ -18,11 +18,11 @@ class Solution
       if (per[i] == 11) 
       {
         per[i] = nums[c];
-solve(nums, per, c + 1);
-per[i] = 11;
-}
-}
-}
+        solve(nums, per, c + 1);
+        per[i] = 11;
+      }
+    }
+  }
 
 public List<List<Integer>> permute(int[] nums) {
 int n = nums.length;
