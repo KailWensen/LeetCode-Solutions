@@ -1,0 +1,12 @@
+import java.util.*;
+class Solution 
+{
+    public int mySqrt(int x) 
+    {
+        double n = Math.sqrt(x);
+        int x1 = (int)Math.floor(n);
+        return x1;
+
+        
+    }
+}
